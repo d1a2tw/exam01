@@ -2,6 +2,7 @@
 
 #include "mbed.h"
 #include "uLCD_4DGL.h"
+Serial pc( USBTX, USBRX );
 PwmOut PWM1(D6);
 uLCD_4DGL uLCD(D1, D0, D2);
 AnalogIn Ain(D0);
